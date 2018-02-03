@@ -54,3 +54,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise'
 gem "paperclip", "~> 5.2.1"
 gem 'bootstrap-sass', '~> 3.2.0.2'
+gem 'searchkick'
