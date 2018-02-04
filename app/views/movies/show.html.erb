@@ -32,7 +32,7 @@
             </tbody>
           </table>
           
-          <%= link_to 'Write a Review', new_movie_review_path(@movie) %>
+          <%= link_to 'Write a Review', new_movie_review_path(@movie), class: 'btn btn-danger' %>
         </div>
       </div>
       
@@ -57,8 +57,8 @@
 </div>
 
 
-<%= link_to 'Edit', edit_movie_path(@movie) %> |
-<%= link_to 'Back', movies_path %>
+<%= link_to 'Edit', edit_movie_path(@movie), class: 'btn btn-xs btn-warning' %> 
+<%= link_to 'Back', movies_path, class: 'btn btn-xs btn-primary' %>
 
 <script>
   $('.star-rating').raty({

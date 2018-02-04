@@ -20,6 +20,8 @@
 
 body {
   background: #AA4847;
+  font-weight: 300;
+  font-size: 18px;
 }
 
 .review_title {
@@ -31,4 +33,13 @@ body {
     .star-rating {
     padding-bottom: 8px;
   }
+}
+a.btn.btn-xs {
+  margin-left: 15px;
+}
+.panel {
+  color: #666666;
+}
+.form-control {
+  width: 60%;
 }
